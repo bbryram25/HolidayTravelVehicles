@@ -2,7 +2,7 @@ name: Java CI
 on:
   push:
     branches:
-      - bbryram25
+      - main
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
 
     - name: Compile Java
       run: |
-        cd bbryram25/HolidayTravelVehicles 
+        cd main/HolidayTravelVehicles 
         javac -d . *.java
       # Compile java file from directory
 
